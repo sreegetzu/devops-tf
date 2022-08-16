@@ -26,6 +26,10 @@ variable "ami_id" {
     description = "AMI for Ubuntu Ec2 instance" 
     default     = "ami-052efd3df9dad4825" 
 }
+variable "subnet_id" { 
+    description = "Subnet for Ubuntu Ec2 instance" 
+    default     = "subnet-0c34a7a61a9224f7d" 
+}
 variable "versioning" {
     type        = bool
     description = "(Optional) A state of versioning."
